@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Open Animal Sounds</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tutorial_usage">USAGE</string>
+    <string name="tutorial_scroll">SCROLL</string>
+    <string name="tutorial_playSound">PLAY SOUND</string>
+    <string name="tutorial_gotit">GOT IT</string>
+    <string name="tutorial_projectpages">Project page</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bg"
+     >
+    <TextView android:textSize="36dp" android:id="@+id/textUsage" android:text="@string/tutorial_usage" android:layout_width="fill_parent" android:gravity="center" android:layout_height="wrap_content" android:background="#A5CB3A" android:textColor="#fff" />
+    <TextView android:textSize="36dp" android:id="@+id/textScroll" android:text="@string/tutorial_scroll" android:layout_width="fill_parent" android:gravity="center" android:layout_height="wrap_content" android:layout_below="@+id/textUsage"  android:paddingTop="16dp" />
+	<ImageView android:contentDescription="@string/tutorial_scroll" android:id="@+id/imageScroll" android:src="@drawable/scroll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/textScroll"  android:paddingTop="16dp" />
+    <TextView android:textSize="36dp" android:id="@+id/textPlaySound" android:text="@string/tutorial_playSound" android:layout_width="fill_parent" android:gravity="center" android:layout_height="wrap_content" android:layout_below="@+id/imageScroll"  android:paddingTop="16dp" />
+	<ImageView android:contentDescription="@string/tutorial_playSound" android:id="@+id/imageTouch" android:src="@drawable/touch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/textPlaySound"  android:paddingTop="16dp" />
+
+	<TextView
+	    android:id="@+id/textLink"
+	    android:layout_width="fill_parent"
+	    android:gravity="center"
+	    android:paddingTop="16dp"
+	    android:textSize="24dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/imageTouch"
+	     />
+
+	<Button android:id="@+id/buttonGotIt"  android:textSize="36dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tutorial_gotit" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />	
+</RelativeLayout>

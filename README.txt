@@ -1,0 +1,1 @@
+Simple android application that displays image of farm animal and play sound of this animal.
